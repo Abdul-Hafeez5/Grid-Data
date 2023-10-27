@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   background-color: salmon;
 }
-.heading{
+.heading {
   text-align: center;
   margin: 20px auto;
 }
@@ -68,10 +68,9 @@ nav p a:hover {
   color: white;
 }
 
-
 .grid-data {
-background-color: rgba(255, 255, 255, 0.3);
-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   max-width: 700px;
   margin: 60px auto;
   border-radius: 8px;
@@ -83,7 +82,9 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-
+.user-image {
+  border-radius: 50%;
+}
 table,
 th,
 td {
@@ -99,7 +100,6 @@ td {
 thead {
   background-color: #908f8f;
 }
-
 
 tr:hover {
   background-color: #f5b4b4;

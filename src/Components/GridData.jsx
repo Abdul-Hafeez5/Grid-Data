@@ -22,7 +22,7 @@ const GridData = ({ users }) => {
               <td>{user.first_name}</td>
               <td>{user.last_name}</td>
               <td>
-                <img
+                <img className="user-image"
                   src={user.avatar}
                   alt={`image of${user.first_name} ${user.last_name}`}
                 />
