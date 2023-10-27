@@ -13,7 +13,7 @@ function App() {
         .then((data) => {
           setUsers(data.data);
           setShowGrid(true);
-          console.log(data);
+          // console.log(data);
         })
         .catch((error) => {
           console.error("error occur while fetching data", error);
