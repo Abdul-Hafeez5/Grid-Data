@@ -1,38 +1,106 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: salmon;
+}
+.heading{
   text-align: center;
+  margin: 20px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
+  padding: 10px 0px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #1e293b;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 20px;
+  margin-right: 200px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  width: 100%;
+}
+nav p a {
+  text-decoration: none;
+  padding: 10px 0;
+  margin: 0 30px;
+  color: white;
+  cursor: pointer;
+}
+nav p a:hover {
+  transition: 0.2s;
+  font-size: 18px;
+  text-decoration: underline;
+  color: rgb(221, 218, 218);
+}
+.search {
+  display: flex;
+  margin: 0 12px;
+}
+.search input {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(240 241 241);
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.search button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+.search button:hover {
+  background-color: rgb(221, 218, 218);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.grid-data {
+background-color: rgba(255, 255, 255, 0.3);
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  max-width: 700px;
+  margin: 60px auto;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #b4b2b2;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #908f8f;
+}
+
+
+tr:hover {
+  background-color: #f5b4b4;
 }
